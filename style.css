@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+* {
+    font-family: Oswald, Georgia, serif;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.oswald {
+    font-family: sans-serif;
+}
+
+
+
+header {
+    background-color: #004175;
+    color: white;
+    font-family: Oswald;
+    border: solid #89DEEF;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:#89DEEF;
+}
+
+.branding {
+    position: relative;
+    padding-left: 10px;
+    top: 10px;
+}
+
+.navigation {
+    text-align: right;
+    position: relative;
+    right: 50px;
+    bottom: 40px;
+    color:white; 
+    word-spacing: 0.50em;
+     
+}
+
+.navigation a:nth-child(2){
+    word-spacing: 0;
+}
+
+
+#homepageText {
+    text-align: left;
+    padding: 20px 100px;
+    font-family: Oswald;
+}
+
+.hero img{
+  width: 100%;
+  height:10%;
+ 
+  
+}
+
+.adoptLink {
+  text-align: center;
+}
+
+.Doggos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.LePup {
+  margin: 4px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.LePup img{
+    width: 200px;
+    height: 155px;
+    padding: 5px;
+}
+
+.traits {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.LePup p{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #89DEEF;
+    border-radius: 20px;
+}
+
+
+#contactPage {
+    padding-left: 20px;
+}
+
+#email, #phoneNum, #address {
+    padding-left: 20px;
+    margin-bottom: -12px;
+}
+
+#email a, #phoneNum a{
+    padding-left: 5px;
+}
+.dates {
+    margin: 40px 0;
+}
+
+.date {
+    display: flex;
+    max-width: 200px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+    justify-content: space-between;
+  
+}
+.date p {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 4px;
+ 
+}
+
+.dates h3 {
+    text-decoration: underline;
+}
+
+
+
+
+.footlink {
+    background-color: #A6A9F0;
+    position:relative;
+    display: inline-block;
+    max-width: 33%;
+    max-height: 33%;
+}
+
+.footlink img {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    opacity: 0.4;
+    width: 100%;
+    transition: 0.3s;
+}
+
+
+.footlink a:nth-child(2) {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+.footlink img:hover {
+  opacity: 1;
+}
